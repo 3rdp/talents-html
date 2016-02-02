@@ -704,7 +704,7 @@ padding: 20px 20px;
 	bottom:20px;
 }
 
-.billed_item .date::before {
+span.date::before {
 	content: url(img/date.png);
 	margin-right: 5px;
 	position:relative;
