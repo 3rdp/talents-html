@@ -16,8 +16,10 @@ ul > li {
 }
 a {
   color:#000;
-  /* font-weight: bold; */
   text-decoration: none;
+}
+.bold {
+	font-weight:bold;
 }
 .right {
   float: right!important;
@@ -30,6 +32,9 @@ a {
 }
 .no-top-margin {
   margin-top: 0!important;
+}
+.no-bot-margin {
+  margin-bottom:0px;
 }
 /*responsive grid*/
 /*  SECTIONS  */
@@ -277,7 +282,7 @@ h2 {
 }
 
 .content .col {
-  padding:20px;
+  padding: 20px;
   overflow: hidden;
 }
 
@@ -450,7 +455,8 @@ label.uploadbutton:before {
 	overflow: hidden;
 }
 
-.auction_item .info h2 {
+.auction_item .info h2,
+.auction_item .right h2 {
 	line-height:0.7em;
 }
 .auction_item .info > h2 {
@@ -458,7 +464,7 @@ label.uploadbutton:before {
 margin-bottom: 4px;
 }
 
-.auction_item .info .desc {
+.auction_item .desc {
 	font-size:12px;
 	margin-top: 8px;
 	/* margin-bottom: 1em; */
@@ -475,11 +481,11 @@ margin-bottom: 4px;
 
 .stats li {
 	display:inline-block;
-	width:120px;
+	width: 120px;
 }
 
 .stats-unit p{
-	font-size:12px;
+	font-size: 12px;
 	margin:0;
 }
 
@@ -499,23 +505,23 @@ margin-bottom: 4px;
 	border-radius: 10px;
 }
 
-.info .badges,
-.info .location {
+.badges,
+.location {
 	font-size:12px;
 	font-weight:600;
 	margin-right:20px;
 }
 
-.info .badges::before {
+.badges::before {
 	content: url(img/price-tag.png);
 }
 
-.info .location::before {
+.location::before {
 	content: url(img/map.png);
 }
 
-.info .badges::before,
-.info .location::before {
+.badges::before,
+.location::before {
 	margin-right:3px;
 	position:relative;
 	top:1px;
@@ -558,8 +564,26 @@ margin-bottom: 4px;
 	margin-bottom:20px;
 }
 
-.files > a:hover {
+.files > a:hover,
+.files > a:hover span {
 	border-bottom: 1px solid #E5F8FE;
+}
+
+.files .atonce::before {
+	content:url(img/attach-black.png);
+	position:relative;
+	top:2px;
+	margin-right:5px;
+}
+
+.files .atonce {
+	border:none;
+}
+
+.files .atonce span {
+	display: inline-block;
+	border-bottom:1px solid #000;
+	line-height: 12px;
 }
 
 .files .send-bid {
@@ -587,14 +611,143 @@ margin-bottom: 4px;
 	margin-left: 3px;
 }
 
-.files .atonce::before {
-	content:url(img/attach-black.png)
+
+.user_menu ul li {
+	padding-left:20px;
+	font-size:14px;
+	font-weight:600;
+	height:30px;
+	display:table;
+	width:100%;
 }
 
-.files .atonce {
-	border:none;
+.user_menu ul li:hover {
+	
 }
 
-.files .atonce span {
-	border-bottom:1px solid #000;	
+.user_menu ul li a {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.user_menu ul li:hover {
+	background: #e5f8fe;
+}
+
+.user_menu ul li.active,
+.user_menu ul li.active a {
+	background:#00b7f4;
+	color:#fff;
+}
+
+.user_menu .user {
+	padding-left:20px;
+}
+
+.user_menu .username::after {
+	display:none;
+}
+
+.user_menu hr {
+	border:0;
+	height:1px;
+	background:#b9b9b9;
+	margin:10px 0px;
+}
+
+.col > .col {
+	margin:0;
+	
+}
+
+.billed_item {
+	position:relative;
+}
+
+.billed_item .desc {
+	font-size:14px;	
+}
+
+.billed_item .left {
+	padding: 20px 70px 20px 20px;
+	width: 535px;
+	border-right: 1px solid #c9c9c9;
+}
+
+.billed_item .right span,
+.billed_item .right {
+	display:block;
+}
+
+.billed_item .right {
+	
+padding: 20px 20px;
+}
+
+.billed_item .price {
+	font-weight:bold;
+	font-size: 17pt;
+}
+
+.billed_item .price::after {
+	content:'Инвестировано';
+	display:block;
+	font-size:12px;
+	font-weight:600;
+	color:#00b7f4;
+}
+
+.billed_item .date,
+.auction_item .date {
+	font-size:10pt;
+	color:#9e9e9e;
+	position:absolute;
+	bottom:20px;
+}
+
+span.date::before {
+	content: url(img/date.png);
+	margin-right: 5px;
+	position:relative;
+	top:1px;
+}
+
+.auction_item .date {position: static;}
+
+.auction_item div.left {
+	width: 46%;
+}
+
+.auction_item div.right {
+	width: 54%;
+}
+
+.profile.auction_item .stats li{
+	width:100px;
+}
+
+.profile.auction_item .stats li:nth-child(2) {
+	width:80px;
+}
+
+.profile.auction_item .stats li:nth-child(3) {
+	width:70px;
+}
+
+.profile.auction_item .stats li:last-child {
+	width:90px;
+}
+
+.col.profile {
+	padding: 7px 10px;
+}
+
+.auction-status-open {
+	font-size:10pt;
+	font-weight:600;
+	color: #00B7F4;
+	margin-right: 10px;
+	position: relative;
+	bottom: 1px;
+	margin-bottom: 10px;
 }
