@@ -712,8 +712,7 @@ span.date::before {
 	top:1px;
 }
 
-.auction_item .date {
-}
+.auction_item .date {bottom: initial;}
 
 .auction_item .left {
 	width: 46%;
