@@ -667,6 +667,7 @@ margin-bottom: 4px;
 
 .billed_item .left {
 	width: 480px;
+	position: absolute;
 }
 
 .billed_item .right span,
