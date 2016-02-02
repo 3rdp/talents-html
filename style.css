@@ -461,8 +461,7 @@ label.uploadbutton:before {
 margin-bottom: 4px;
 }
 
-.auction_item .info .desc,
-.billed_item .desc {
+.auction_item .info .desc {
 	font-size:12px;
 	margin-top: 8px;
 	/* margin-bottom: 1em; */
