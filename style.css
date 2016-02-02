@@ -502,23 +502,23 @@ margin-bottom: 4px;
 	border-radius: 10px;
 }
 
-.info .badges,
-.info .location {
+.badges,
+.location {
 	font-size:12px;
 	font-weight:600;
 	margin-right:20px;
 }
 
-.info .badges::before {
+.badges::before {
 	content: url(img/price-tag.png);
 }
 
-.info .location::before {
+.location::before {
 	content: url(img/map.png);
 }
 
-.info .badges::before,
-.info .location::before {
+.badges::before,
+.location::before {
 	margin-right:3px;
 	position:relative;
 	top:1px;
@@ -657,4 +657,38 @@ margin-bottom: 4px;
 	
 }
 
-.billed_item .desc
+.billed_item .desc {
+	font-size:14px;	
+}
+
+.billed_item .left {
+	width: 480px;
+}
+
+.billed_item .right span {
+	display:block;
+}
+
+.billed_item .price {
+	font-weight:bold;
+	font-size: 17pt;
+}
+
+.billed_item .price::after {
+	content:'Инвестировано';
+	display:block;
+	font-size:12px;
+	color:#00b7f4;
+}
+
+.billed_item .date {
+	font-size:10pt;
+	color:#9e9e9e;
+}
+
+.billed_item .date::before {
+	content: url(img/date.png);
+	margin-right: 5px;
+	position:relative;
+	top:1px;
+}
