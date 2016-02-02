@@ -558,8 +558,26 @@ margin-bottom: 4px;
 	margin-bottom:20px;
 }
 
-.files > a:hover {
+.files > a:hover,
+.files > a:hover span {
 	border-bottom: 1px solid #E5F8FE;
+}
+
+.files .atonce::before {
+	content:url(img/attach-black.png);
+	position:relative;
+	top:2px;
+	margin-right:5px;
+}
+
+.files .atonce {
+	border:none;
+}
+
+.files .atonce span {
+	display: inline-block;
+	border-bottom:1px solid #000;
+	line-height: 12px;
 }
 
 .files .send-bid {
@@ -587,14 +605,3 @@ margin-bottom: 4px;
 	margin-left: 3px;
 }
 
-.files .atonce::before {
-	content:url(img/attach-black.png)
-}
-
-.files .atonce {
-	border:none;
-}
-
-.files .atonce span {
-	border-bottom:1px solid #000;	
-}
