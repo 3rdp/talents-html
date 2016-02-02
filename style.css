@@ -729,11 +729,11 @@ span.date::before {
 }
 
 .profile.auction_item .stats li:nth-child(2) {
-	width:80px;
+	width:75px;
 }
 
 .profile.auction_item .stats li:nth-child(3) {
-	width:30px;
+	width:65px;
 }
 
 .profile.auction_item .stats li:last-child {
