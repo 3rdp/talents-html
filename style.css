@@ -669,7 +669,7 @@ margin-bottom: 4px;
 .billed_item .right {
 	display:block;
 	position:relative;
-	height: 100%;
+	height: 100px;
 }
 
 .billed_item .price {
