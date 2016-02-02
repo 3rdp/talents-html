@@ -711,3 +711,6 @@ padding: 20px 20px;
 	top:1px;
 }
 
+.auction_item .date {
+	position:static;
+}
