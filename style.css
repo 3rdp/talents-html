@@ -721,7 +721,7 @@ span.date::before {
 }
 
 .auction_item .right {
-	width:51%;
+	width: 54%;
 }
 
 .profile.auction_item .stats li{
@@ -730,4 +730,12 @@ span.date::before {
 
 .profile.auction_item .stats li:nth-child(2) {
 	width:80px;
+}
+
+.profile.auction_item .stats li:nth-child(3) {
+	width:30px;
+}
+
+.profile.auction_item .stats li:last-child {
+	width:100px;
 }
