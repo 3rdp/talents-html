@@ -19,6 +19,9 @@ a {
   /* font-weight: bold; */
   text-decoration: none;
 }
+.bold {
+	font-weight:bold;
+}
 .right {
   float: right!important;
 }
@@ -677,7 +680,8 @@ margin-bottom: 4px;
 }
 
 .billed_item .right {
-	padding: 20px 20px;
+	
+padding: 20px 20px;
 }
 
 .billed_item .price {
@@ -686,7 +690,7 @@ margin-bottom: 4px;
 }
 
 .billed_item .price::after {
-	content:'Инвестировано';
+	content:'Ð˜Ð½Ð²ÐµÑÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¾';
 	display:block;
 	font-size:12px;
 	font-weight:600;
