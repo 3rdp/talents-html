@@ -45,7 +45,7 @@ a {
 /*  COLUMN SETUP  */
 .col {
 	display: block;
-	/* float:left; */
+	float:left;
 	margin: 1% 0 1% 1.6%;
 }
 .col:first-child {margin-left: 0;}
