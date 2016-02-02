@@ -605,3 +605,27 @@ margin-bottom: 4px;
 	margin-left: 3px;
 }
 
+
+.user_menu ul li {
+	padding-left:20px;
+	font-size:14px;
+	font-weight:600;
+	height:30px;
+	display:table;
+	width:100%;
+}
+
+.user_menu ul li:hover {
+	
+}
+
+.user_menu ul li a {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.user_menu ul li.active,
+.user_menu ul li.active a {
+	background:#00b7f4;
+	color:#fff;
+}
