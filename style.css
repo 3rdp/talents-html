@@ -729,13 +729,13 @@ span.date::before {
 }
 
 .profile.auction_item .stats li:nth-child(2) {
-	width:75px;
+	width:80px;
 }
 
 .profile.auction_item .stats li:nth-child(3) {
-	width:65px;
+	width:70px;
 }
 
 .profile.auction_item .stats li:last-child {
-	width:100px;
+	width:90px;
 }
