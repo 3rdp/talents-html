@@ -31,6 +31,9 @@ a {
 .no-top-margin {
   margin-top: 0!important;
 }
+.no-bot-margin {
+  margin-bottom:0px;
+}
 /*responsive grid*/
 /*  SECTIONS  */
 .section {
@@ -624,8 +627,27 @@ margin-bottom: 4px;
 	vertical-align:middle;
 }
 
+.user_menu ul li:hover {
+	background: #e5f8fe;
+}
+
 .user_menu ul li.active,
 .user_menu ul li.active a {
 	background:#00b7f4;
 	color:#fff;
+}
+
+.user_menu .user {
+	padding-left:20px;
+}
+
+.user_menu .username::after {
+	display:none;
+}
+
+.user_menu hr {
+	border:0;
+	height:1px;
+	background:#b9b9b9;
+	margin:0;
 }
