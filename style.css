@@ -715,3 +715,10 @@ span.date::before {
 	position:static;
 }
 
+.auction_item .left {
+	width:50%;
+}
+
+.auction_item .right {
+	
+}
