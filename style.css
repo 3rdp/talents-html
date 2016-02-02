@@ -739,3 +739,7 @@ span.date::before {
 .profile.auction_item .stats li:last-child {
 	width:90px;
 }
+
+.col.profile {
+	padding:10px;
+}
