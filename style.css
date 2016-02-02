@@ -675,6 +675,10 @@ margin-bottom: 4px;
 	display:block;
 }
 
+.billed_item .right {
+	
+}
+
 .billed_item .price {
 	font-weight:bold;
 	font-size: 17pt;
