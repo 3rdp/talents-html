@@ -746,4 +746,5 @@ span.date::before {
 	font-size:10pt;
 	font-weight:600;
 	color: #00B7F4;
+	margin-right: 10px;
 }
