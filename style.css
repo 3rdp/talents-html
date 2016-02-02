@@ -749,5 +749,6 @@ span.date::before {
 	margin-right: 10px;
 	position: relative;
 	bottom: 1px;
-	margin-bottom: 5px;
+	
+	margin-bottom: 10px;
 }
