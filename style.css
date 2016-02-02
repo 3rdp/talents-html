@@ -451,7 +451,7 @@ label.uploadbutton:before {
 .auction_item .info {
 	display: inline-block;
 	width: 510px;
-	height: 240px;
+	/* height: 240px; */
 	overflow: hidden;
 }
 
