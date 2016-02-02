@@ -742,3 +742,8 @@ span.date::before {
 	padding: 7px 10px;
 }
 
+.auction-status-open {
+	font-size:10pt;
+	font-weight:600;
+	color:#000;
+}
