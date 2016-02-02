@@ -714,11 +714,11 @@ span.date::before {
 
 .auction_item .date {position: static;}
 
-.auction_item .left {
+.auction_item div.left {
 	width: 46%;
 }
 
-.auction_item .right {
+.auction_item div.right {
 	width: 54%;
 }
 
