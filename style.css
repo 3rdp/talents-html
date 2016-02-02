@@ -723,3 +723,6 @@ span.date::before {
 	width:51%;
 }
 
+.profile.auction_item .stats li{
+	width:100px;
+}
