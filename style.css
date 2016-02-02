@@ -668,6 +668,7 @@ margin-bottom: 4px;
 .billed_item .left {
 	padding: 20px 70px 20px 20px;
 	width: 520px;
+	border-left: 1px;
 }
 
 .billed_item .right span,
