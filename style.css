@@ -578,7 +578,7 @@ margin-bottom: 4px;
 }
 
 .files .atonce span {
-	display: inline-block;
+	/* display: inline-block; */
 	border-bottom:1px solid #000;
 	line-height: 12px;
 }
