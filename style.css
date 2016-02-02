@@ -455,7 +455,8 @@ label.uploadbutton:before {
 	overflow: hidden;
 }
 
-.auction_item .info h2 {
+.auction_item .info h2,
+.auction_item .right h2 {
 	line-height:0.7em;
 }
 .auction_item .info > h2 {
@@ -725,4 +726,8 @@ span.date::before {
 
 .profile.auction_item .stats li{
 	width:100px;
+}
+
+.profile.auction_item .stats li:nth-child(2) {
+	width:80px;
 }
