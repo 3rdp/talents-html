@@ -16,7 +16,7 @@ ul > li {
 }
 a {
   color:#000;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-decoration: none;
 }
 .right {
@@ -267,7 +267,7 @@ h1.center {
 
 .col.white {
 	background:#fff;
-	border-radius:10px;
+	border-radius: 5px;
 }
 
 h2 {
@@ -278,7 +278,7 @@ h2 {
 
 .content .col {
   padding:20px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 ol.right {
@@ -433,4 +433,168 @@ label.uploadbutton:before {
 	position:relative;
 	top:2px;
 	margin-right:px;
+}
+
+.auction_item .image {
+	width: 320px;
+	height: 240px;
+	border-radius:5px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.auction_item .info {
+	display: inline-block;
+	width: 510px;
+	height: 240px;
+	overflow: hidden;
+}
+
+.auction_item .info h2 {
+	line-height:0.7em;
+}
+.auction_item .info > h2 {
+	
+margin-bottom: 4px;
+}
+
+.auction_item .info .desc {
+	font-size:12px;
+	margin-top: 8px;
+	/* margin-bottom: 1em; */
+}
+
+.auction_item .info .user {
+	font-size:10px;
+	font-weight:600;
+}
+
+.stats {
+	padding:0;
+}
+
+.stats li {
+	display:inline-block;
+	width:120px;
+}
+
+.stats-unit p{
+	font-size:12px;
+	margin:0;
+}
+
+.progress-bar {
+	width:100%;
+	height: 6px;
+	background: #c6c6c6;
+	border-radius: 5px;
+	position:relative;
+	overflow: hidden;
+	margin:10px 0px;
+}
+
+.progress {
+	height:100%;
+	background: #00aeef;
+	border-radius: 10px;
+}
+
+.info .badges,
+.info .location {
+	font-size:12px;
+	font-weight:600;
+	margin-right:20px;
+}
+
+.info .badges::before {
+	content: url(img/price-tag.png);
+}
+
+.info .location::before {
+	content: url(img/map.png);
+}
+
+.info .badges::before,
+.info .location::before {
+	margin-right:3px;
+	position:relative;
+	top:1px;
+}
+
+.files-wrapper {
+	width: 22%;
+	/* position: relative; */
+	/* top: 0; */
+	/* right:0; */
+	float: right;
+	background: #e5f8fe;
+}
+
+.files {
+	position:absolute;
+	background: #e5f8fe;
+	top: 0px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	height: 100%;
+	width: 262px;
+}
+
+.auction_item {
+	position:relative;
+	margin-bottom:20px;
+}
+
+.files > a {
+	display: table;
+	font-size:12px;
+	margin-top: 11px;
+	border-bottom:1px solid #000;
+	line-height: 12px;
+}
+
+.files > h2 {
+	margin-bottom:20px;
+}
+
+.files > a:hover {
+	border-bottom: 1px solid #E5F8FE;
+}
+
+.files .send-bid {
+	width: 232px;
+	position:absolute;
+	bottom: 10px;
+	text-align: center;
+}
+
+.files .send-bid a {
+	font-size:14px;
+	font-weight:600;
+	color:#00b7f4;
+	background:#fff;
+	padding:2px 5px;
+	border-radius:5px;
+	border: 1px solid;
+}
+
+.info .user::before {
+	content: url(img/cont.png);
+	position:relative;
+	top:2px;
+	margin-right:5px;
+	margin-left: 3px;
+}
+
+.files .atonce::before {
+	content:url(img/attach-black.png)
+}
+
+.files .atonce {
+	border:none;
+}
+
+.files .atonce span {
+	border-bottom:1px solid #000;	
 }
