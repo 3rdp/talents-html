@@ -716,9 +716,10 @@ span.date::before {
 }
 
 .auction_item .left {
-	width:40%;
+	width:47%;
 }
 
 .auction_item .right {
-	width:60%;
+	width:51%;
 }
+
