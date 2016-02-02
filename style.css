@@ -651,3 +651,8 @@ margin-bottom: 4px;
 	background:#b9b9b9;
 	margin:10px 0px;
 }
+
+.col > .col {
+	margin:0;
+	
+}
