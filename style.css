@@ -831,6 +831,14 @@ span.date::before {
 	font-size:12px;
 }
 
-.form-wrap #agree + label {
-	font-size:14px;
+input[type="checkbox"] {
+    visibility:hidden;
+}
+input[type="checkbox"] + label {
+    background: url(img/checkbox-sprite.png) 0 0 no-repeat;
+    font-size:14px;
+    padding-left: 40px;
+}
+input[type="checkbox"]:checked + label {
+    background-position: 0 -32px;
 }
