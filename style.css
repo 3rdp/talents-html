@@ -820,3 +820,8 @@ span.date::before {
 .form-header li.active h2 {
 	color:#00b7f4;  
 }
+
+.form-wrap .scroll {
+	height:600px;
+	overflow-y:auto;
+}
