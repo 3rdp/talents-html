@@ -849,5 +849,5 @@ input[type="checkbox"]:checked + label {
 	font-weight:600;
 	color:#00b7f4;
 	border-bottom:1px solid #00b7f4;
-	margin-right: 12;
+	margin-right: 20px;
 }
