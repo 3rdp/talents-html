@@ -809,4 +809,7 @@ span.date::before {
 
 .form-header li {
 	display:inline-block;
+	width:33%;
+	padding-left:20px;
 }
+
