@@ -844,3 +844,10 @@ input[type="checkbox"]:checked + label {
     background-position: 0 0px;
 }
 
+.download-terms {
+	font-size:14px;
+	font-weight:600;
+	color:#00b7f4;
+	border-bottom:1px solid #00b7f4;
+	margin-right: 12;
+}
