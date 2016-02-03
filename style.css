@@ -786,7 +786,7 @@ span.date::before {
 	display:table;
 }
 
-.faq-head + .right {
+.faq-head + .button-wrap {
 	display:table-cell;
 	vertical-align:middle;
 }
@@ -799,3 +799,4 @@ span.date::before {
 .faq-head h1 {
 	margin-top:0px;
 }
+
