@@ -874,3 +874,19 @@ li.terms::before {
 	height: 45px;
 	background:url(img/terms_sprint.png) 0 0 no-repeat;
 }
+
+li.fill-f::before {
+	width: 52px;
+	height: 45px;
+	background:url(img/form_sprint.png) 0 bottom no-repeat;
+}
+
+li.send-f::before {
+	width: 52px;
+	height: 48px;
+	background:url(img/sendform_sprint.png) 0 bottom no-repeat;
+}
+
+li.active::before {
+	background-position:0 0;
+}
