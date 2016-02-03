@@ -781,3 +781,12 @@ span.date::before {
 .faq-head {
 	width:700px;
 }
+
+.faq-head + .right {
+	display:table;
+}
+
+.faq-head + .right a {
+	display:table-cell;
+	vertical-align:middle;
+}
