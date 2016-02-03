@@ -864,6 +864,7 @@ input[type="checkbox"]:checked + label {
 
 li.terms::before {
 	display: inline-block;
+	position: absolute;
 	float: left;
 	content:'';
 	width: 19px;
