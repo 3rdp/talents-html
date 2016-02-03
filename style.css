@@ -845,7 +845,7 @@ input[type="checkbox"]:checked + label {
     background-position: 0 0px;
 }
 
-.download-terms {
+.download-terms span {
 	font-size:14px;
 	font-weight:600;
 	color:#00b7f4;
