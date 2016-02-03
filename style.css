@@ -814,6 +814,10 @@ span.date::before {
 	padding-left: 55px;
 }
 
+.form-header .send-f {
+	padding-left:60px;
+}
+
 .form-header li h2 {
 	width:100px;
 }
