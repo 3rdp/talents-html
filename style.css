@@ -810,7 +810,7 @@ span.date::before {
 .form-header li {
 	display:inline-block;
 	width:33%;
-	padding-left:20px;
+	padding-left:55px;
 }
 
 .form-header li h2 {
@@ -818,5 +818,5 @@ span.date::before {
 }
 
 .form-header li.active h2 {
-	color:#00b7f4;
+	color:#00b7f4;  
 }
