@@ -804,7 +804,7 @@ span.date::before {
 .form-header {
 	width:730px;
 	padding: 0;
-	margin: 0 auto;
+	margin: 0 auto 30px auto;
 }
 
 .form-header li {
