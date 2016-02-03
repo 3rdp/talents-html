@@ -824,6 +824,7 @@ span.date::before {
 .form-wrap .scroll {
 	height:600px;
 	overflow-y:auto;
+	margin-bottom:20px;
 }
 
 .form-wrap .scroll p {
