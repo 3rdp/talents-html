@@ -833,7 +833,6 @@ span.date::before {
 
 input[type="checkbox"] {
     visibility:hidden;
-    position:;
 }
 input[type="checkbox"] + label {
     background: url(img/checkbox-sprite.png) 0 -22px no-repeat;
