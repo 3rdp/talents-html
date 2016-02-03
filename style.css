@@ -811,7 +811,7 @@ span.date::before {
 	display:inline-block;
 	position: relative;
 	width:33%;
-	padding-left:55px;
+	padding-left: 55px;
 }
 
 .form-header li h2 {
