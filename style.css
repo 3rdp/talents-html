@@ -777,3 +777,7 @@ span.date::before {
 	border-bottom:2px dashed #00b7f4;
 	line-height:1.2em;
 }
+
+.faq-head {
+	width:700px;
+}
