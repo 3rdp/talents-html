@@ -22,7 +22,7 @@ a {
 	font-weight:bold;
 }
 .right {
-  /* float: right!important; */
+  float: right!important;
 }
 .left {
   float: left!important;
