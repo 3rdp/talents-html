@@ -400,7 +400,8 @@ p.semibold {
   margin-bottom:20px;
 }
 
-#touch button {
+#touch button,
+a.button {
 	background:#00b7f4;
 	border:none;
 	border-radius:5px;
