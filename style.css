@@ -764,3 +764,7 @@ span.date::before {
 	font-size:14px;
 	display:none;
 }
+
+.faq-item.open {
+	backround:#e5f8fe;
+}
