@@ -835,10 +835,12 @@ input[type="checkbox"] {
     visibility:hidden;
 }
 input[type="checkbox"] + label {
-    background: url(img/checkbox-sprite.png) 0 0 no-repeat;
+    background: url(img/checkbox-sprite.png) 0 -22px no-repeat;
     font-size:14px;
     padding-left: 40px;
+    cursor:pointer;
 }
 input[type="checkbox"]:checked + label {
-    background-position: 0 -32px;
+    background-position: 0 0px;
 }
+
