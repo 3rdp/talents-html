@@ -863,7 +863,7 @@ input[type="checkbox"]:checked + label {
 }
 
 li.terms::before {
-	display: inblock;
+	display: inline;
 	content:'';
 	width:52px;
 	height:45px;
