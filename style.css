@@ -890,3 +890,7 @@ li.send-f::before {
 li.active::before {
 	background-position:0 0;
 }
+
+li.active.terms::before {
+	background-position:0 bottom;
+}
