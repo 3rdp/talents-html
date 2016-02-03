@@ -851,3 +851,7 @@ input[type="checkbox"]:checked + label {
 	color:#00b7f4;
 	border-bottom:1px solid #00b7f4;
 }
+
+.download-terms::before {
+	content: url(img/download-pdf.png);
+}
