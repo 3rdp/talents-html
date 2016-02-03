@@ -813,3 +813,10 @@ span.date::before {
 	padding-left:20px;
 }
 
+.form-header li h2 {
+	width:100px;
+}
+
+.form-header li.active h2 {
+	color:#00b7f4;
+}
