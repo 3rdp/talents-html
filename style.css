@@ -765,6 +765,9 @@ span.date::before {
 	display:none;
 }
 
-.faq-item.open {
+.faq-item.open,
+.faq-item.open a {
 	backround:#e5f8fe;
+	color:#000;
+	border-color:#000;
 }
