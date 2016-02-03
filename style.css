@@ -790,3 +790,7 @@ span.date::before {
 	display:table-cell;
 	vertical-align:middle;
 }
+
+.faq-head h1 {
+	margin-top:0px;
+}
