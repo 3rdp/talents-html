@@ -752,22 +752,28 @@ span.date::before {
 	margin-bottom: 10px;
 }
 
+.faq-item p {
+	font-size:14px;
+	display:none;
+	margin-top:30px;
+	margin-bottom:0px;
+}
+
+.faq-item.open,
+.faq-item.open a {
+	background:#e5f8fe;
+	color:#000;
+	border-color:#000;
+}
+
+.faq-item.open p {
+	display:block;
+}
+
 .faq-item a {
 	display:inline-block;
 	color:#00b7f4;
 	font-weight:600;
 	border-bottom:2px dashed #00b7f4;
 	line-height:1.2em;
-}
-
-.faq-item p {
-	font-size:14px;
-	display:none;
-}
-
-.faq-item.open,
-.faq-item.open a {
-	backround:#e5f8fe;
-	color:#000;
-	border-color:#000;
 }
