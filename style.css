@@ -690,7 +690,7 @@ padding: 20px 20px;
 }
 
 .billed_item .price::after {
-	content:'Ð˜Ð½Ð²ÐµÑÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¾';
+	content:'Инвестировано';
 	display:block;
 	font-size:12px;
 	font-weight:600;
