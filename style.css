@@ -885,6 +885,7 @@ li.terms::before {
 }
 
 li.fill-f::before {
+	left:40px;
 	width: 52px;
 	height: 45px;
 	background:url(img/form_sprint.png) 0 bottom no-repeat;
