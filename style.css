@@ -691,7 +691,7 @@ padding: 20px 20px;
 }
 
 .billed_item .price::after {
-	content:'Инвестировано';
+	content:'Ð˜Ð½Ð²ÐµÑÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¾';
 	display:block;
 	font-size:12px;
 	font-weight:600;
@@ -824,4 +824,8 @@ span.date::before {
 .form-wrap .scroll {
 	height:600px;
 	overflow-y:auto;
+}
+
+.form-wrap .scroll p {
+	font-size:12px;
 }
