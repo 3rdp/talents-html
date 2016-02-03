@@ -783,13 +783,14 @@ span.date::before {
 }
 
 .faq-head + .right {
-	display:table;
-}
-
-.faq-head + .right a {
 	display:table-cell;
 	vertical-align:middle;
 }
+
+/* .faq-head + .right a {
+	display:table-cell;
+	vertical-align:middle;
+} */
 
 .faq-head h1 {
 	margin-top:0px;
