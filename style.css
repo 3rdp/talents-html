@@ -869,7 +869,7 @@ li.terms::before {
 	left: 0;
 	float: left;
 	content:'';
-	width: 53px;
+	width: 52px;
 	height:45px;
 	background:url(img/terms_sprint.png) 0 0 no-repeat;
 }
