@@ -801,3 +801,12 @@ span.date::before {
 	margin-top:0px;
 }
 
+.form-header {
+	width:730px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.form-header li {
+	display:inline-block;
+}
