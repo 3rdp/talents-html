@@ -831,6 +831,6 @@ span.date::before {
 	font-size:12px;
 }
 
-.form-wrap #agree {
-	font-size:12px;
+.form-wrap #agree + label {
+	font-size:14px;
 }
