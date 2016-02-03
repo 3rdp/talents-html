@@ -833,6 +833,7 @@ span.date::before {
 
 input[type="checkbox"] {
     visibility:hidden;
+    position: relative;
 }
 input[type="checkbox"] + label {
     background: url(img/checkbox-sprite.png) 0 -22px no-repeat;
@@ -854,4 +855,7 @@ input[type="checkbox"]:checked + label {
 
 .download-terms::before {
 	content: url(img/download-pdf.png);
+	position:relative;
+	top:5px;
+	margin-right:10px;
 }
