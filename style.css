@@ -400,7 +400,8 @@ p.semibold {
   margin-bottom:20px;
 }
 
-#touch button {
+#touch button,
+a.button {
 	background:#00b7f4;
 	border:none;
 	border-radius:5px;
@@ -690,7 +691,7 @@ padding: 20px 20px;
 }
 
 .billed_item .price::after {
-	content:'Инвестировано';
+	content:'ÃËœÃÂ½ÃÂ²ÃÂµÃ‘ÂÃ‘â€šÃÂ¸Ã‘â‚¬ÃÂ¾ÃÂ²ÃÂ°ÃÂ½ÃÂ¾';
 	display:block;
 	font-size:12px;
 	font-weight:600;
@@ -750,4 +751,172 @@ span.date::before {
 	position: relative;
 	bottom: 1px;
 	margin-bottom: 10px;
+}
+
+.faq-item p {
+	font-size:14px;
+	display:none;
+	margin-top:30px;
+	margin-bottom:0px;
+}
+
+.faq-item.open,
+.faq-item.open a {
+	background:#e5f8fe;
+	color:#000;
+	border-color:#000;
+}
+
+.faq-item.open p {
+	display:block;
+}
+
+.faq-item a {
+	display:inline-block;
+	color:#00b7f4;
+	font-weight:600;
+	border-bottom:2px dashed #00b7f4;
+	line-height:1.2em;
+}
+
+.faq-head {
+	width:700px;
+}
+
+.faq-head-wrap {
+	display:table;
+}
+
+.faq-head + .button-wrap {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+/* .faq-head + .right a {
+	display:table-cell;
+	vertical-align:middle;
+} */
+
+.faq-head h1 {
+	margin-top:0px;
+}
+
+.form-header {
+	width:730px;
+	padding: 0;
+	margin: 0 auto 30px auto;
+}
+
+.form-header li {
+	display:inline-block;
+	position: relative;
+	width:33%;
+	padding-left: 55px;
+}
+
+.form-header .fill-f {
+	padding-left: 110px;
+} 
+
+.form-header .send-f {
+	padding-left: 160px;
+}
+
+.form-header li h2 {
+	width:100px;
+}
+
+.form-header li.active h2 {
+	color:#00b7f4;  
+}
+
+.form-wrap .scroll {
+	height:600px;
+	overflow-y:auto;
+	margin-bottom:20px;
+}
+
+.form-wrap .scroll p {
+	font-size:12px;
+}
+
+input[type="checkbox"] {
+    visibility:hidden;
+}
+input[type="checkbox"] + label {
+    background: url(img/checkbox-sprite.png) 0 -22px no-repeat;
+    font-size:14px;
+    padding-left: 40px;
+    cursor:pointer;
+    margin-right: 70px;
+}
+input[type="checkbox"]:checked + label {
+    background-position: 0 0px;
+}
+
+.download-terms span {
+	font-size:14px;
+	font-weight:600;
+	color:#00b7f4;
+	border-bottom:1px solid #00b7f4;
+}
+.download-terms:hover span {
+	border:0;
+}
+
+.download-terms::before {
+	content: url(img/download-pdf.png);
+	position:relative;
+	top:5px;
+	margin-right:10px;
+}
+
+.form-header li::before {
+	position: absolute;
+	left: 0;
+	content:'';
+}
+
+li.terms::before {
+	top:1px;
+	width: 52px;
+	height: 45px;
+	background:url(img/terms_sprint.png) 0 0 no-repeat;
+}
+
+li.fill-f::before {
+	left: 60px;
+	width: 52px;
+	height: 45px;
+	background:url(img/form_sprint.png) 0 bottom no-repeat;
+}
+
+li.send-f::before {
+	left:100px;
+	width: 52px;
+	height: 48px;
+	background:url(img/sendform_sprint.png) 0 bottom no-repeat;
+}
+
+li.active::before {
+	background-position:0 0;
+}
+
+li.active.terms::before {
+	background-position:0 bottom;
+}
+
+.form-header li:not(:last-child)::after {
+	content:url(img/arrow_form.png);
+	position:absolute;
+}
+
+.terms::after {
+	top:10px;
+	right:-10px;
+}
+
+.fill-f::after {
+	top:10px;
+	right: -45px;
 }
