@@ -691,7 +691,7 @@ padding: 20px 20px;
 }
 
 .billed_item .price::after {
-	content:'Ð˜Ð½Ð²ÐµÑÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¾';
+	content:'ÃËœÃÂ½ÃÂ²ÃÂµÃ‘ÂÃ‘â€šÃÂ¸Ã‘â‚¬ÃÂ¾ÃÂ²ÃÂ°ÃÂ½ÃÂ¾';
 	display:block;
 	font-size:12px;
 	font-weight:600;
@@ -905,3 +905,4 @@ li.active::before {
 li.active.terms::before {
 	background-position:0 bottom;
 }
+
