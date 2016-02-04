@@ -906,3 +906,6 @@ li.active.terms::before {
 	background-position:0 bottom;
 }
 
+.form-header li::after {
+	content:url(img/arrow_form.png)
+}
