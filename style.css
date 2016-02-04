@@ -918,5 +918,5 @@ li.active.terms::before {
 
 .fill-f::after {
 	top:10px;
-	right:-5px;
+	right: 15px;
 }
